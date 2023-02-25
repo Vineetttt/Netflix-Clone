@@ -1,4 +1,4 @@
-#[Netflix Clone](https://netflix-clone-a7ed4.firebaseapp.com/)
+[Netflix Clone](https://netflix-clone-a7ed4.firebaseapp.com/)
 
 # Getting Started with Create React App and Redux
 
