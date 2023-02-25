@@ -11,7 +11,7 @@
     transition: all 0.5s;
 }
 .nav_black{
-    background-color: #111;
+    background-color: black;
 }
 .nav_content{
     display: flex;

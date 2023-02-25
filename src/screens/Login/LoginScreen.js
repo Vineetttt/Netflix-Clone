@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import SignInScreen from './SignInScreen';
+import SignInScreen from '../Signin/SignInScreen';
 import "./LoginScreen.css";
-import Features from '../components/Features';
-import Faq from '../components/FAQ/FAQ';
-import Footer from '../components/Footer/Footer';
+import Features from '../../components/Features/Features';
+import Faq from '../../components/FAQ/FAQ';
+import Footer from '../../components/Footer/Footer';
 
 function LoginScreen() {
   const [signIn , setSignIn] = useState(false);
@@ -40,7 +40,7 @@ function LoginScreen() {
     </div>
     {!signIn ? (
       <>
-         <Features />
+        <Features />
          <Faq />
          <Footer />
       </>
