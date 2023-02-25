@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import SignInScreen from './SignInScreen';
 import "./LoginScreen.css";
+import Features from '../components/Features';
+import Faq from '../components/FAQ/FAQ';
+import Footer from '../components/Footer/Footer';
 
 function LoginScreen() {
   const [signIn , setSignIn] = useState(false);
   return (
+    <>
     <div className='loginScreen'>
       <div className="loginScreen_background">
         <img className='loginScreen_logo' 
@@ -19,7 +23,7 @@ function LoginScreen() {
           {signIn ? (<SignInScreen/>)
           :(
             <>
-              <h1>Unlimited films, TV programmes and more.</h1>
+              <h1>Unlimited movies, TV <br/>shows and more.</h1>
               <h2>Watch anywhere. Cancel at any time</h2>
               <h3>Ready to watch? Enter your email to create or restart your membership</h3>
               <div className="loginScreen_input">
@@ -34,6 +38,14 @@ function LoginScreen() {
         </div>
       </div>
     </div>
+    {!signIn ? (
+      <>
+         <Features />
+         <Faq />
+         <Footer />
+      </>
+    ):(<></>)}
+    </>
   )
 }
 

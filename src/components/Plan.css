@@ -1,0 +1,14 @@
+.plans_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.plans_info:hover{
+    opacity: 1;
+}
+.plans_info > button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+}

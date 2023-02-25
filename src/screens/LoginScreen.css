@@ -47,16 +47,16 @@
     right: 0;
 }
 .loginScreen_body > h1{
-    font-size: 3.125rem;
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 .loginScreen_body > h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .loginScreen_body > h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 .loginScreen_input{
@@ -65,13 +65,13 @@
 .loginScreen_input > form > input{
     padding: 10px;
     outline-width: 0;
-    height: 30px;
-    width: 30%;
+    height: 40px;
+    width: 50%;
     border: none;
     max-width: 600px;
 }
 .loginScreen_getStarted{
-    padding: 16px 20px;
+    padding: 21px 22px;
     font-weight: 600;
     font-size: 1rem;
     color: #fff;

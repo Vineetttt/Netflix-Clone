@@ -1,0 +1,28 @@
+.features{
+    background-color: #111;
+}
+.features_content{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-top: 10%;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.features_content > img{
+    padding-top: 5%;
+    height: 30%;
+    width: 30%;
+}
+.title{
+    padding-top: 10%;
+}
+.title > h1{
+    font-size: 3rem;
+}
+.title > h2{
+    padding-top: 3%;
+    font-size: 2rem;
+    font-weight: 400;
+}
